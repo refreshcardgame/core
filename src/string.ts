@@ -1,0 +1,7 @@
+export type RCGStringWithPrefix = `${string}:${string}`;
+
+export type RCGVersion = `${number}.${number}.${number}`;
+
+export function capitalize<T extends string>(str: T): Capitalize<T> {
+  return `${str.charAt(0).toUpperCase()}${str.slice(1)}` as Capitalize<T>;
+}

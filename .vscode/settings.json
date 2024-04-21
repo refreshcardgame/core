@@ -1,0 +1,9 @@
+{
+  "editor.codeActionsOnSave": { "source.organizeImports": "always" },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "eslint.options": { "flags": ["unstable_native_nodejs_ts_config"] },
+  "typescript.tsdk": "node_modules\\typescript\\lib"
+}
