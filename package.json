@@ -1,0 +1,57 @@
+{
+  "author": {
+    "name": "Refresh Card Game",
+    "url": "https://github.com/refresh-card-game"
+  },
+  "bugs": {
+    "url": "https://github.com/refresh-card-game/core/issues"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.22",
+    "pure-rand": "^7.0.1",
+    "queue-typed": "^2.1.0",
+    "stack-typed": "^2.1.0",
+    "undirected-graph-typed": "^2.1.0"
+  },
+  "description": "The core of Refresh.",
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@onyx/esbuild-plugin-rewrite-relative-import-extensions": "npm:@jsr/onyx__esbuild-plugin-rewrite-relative-import-extensions@^0.0.2",
+    "@types/lodash-es": "^4.17.12",
+    "@types/node": "^22.19.3",
+    "esbuild": "^0.27.2",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "npm-run-all": "^4.1.5",
+    "package-directory": "^8.1.0",
+    "prettier": "^3.7.4",
+    "tsx": "^4.21.0",
+    "type-fest": "^5.3.1",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.51.0"
+  },
+  "homepage": "https://github.com/refresh-card-game/core#readme",
+  "keywords": [
+    "game",
+    "typescript"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "name": "@refreshcardgame/core",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/refresh-card-game/core.git"
+  },
+  "scripts": {
+    "build": "node scripts/build.ts",
+    "check": "node scripts/check.ts",
+    "clean": "node scripts/clean.ts",
+    "export": "node scripts/export.ts",
+    "lint": "node scripts/lint.ts",
+    "watch": "node scripts/watch.ts"
+  },
+  "type": "module",
+  "types": "src/index.ts",
+  "version": "0.0.1"
+}

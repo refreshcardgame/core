@@ -1,0 +1,17 @@
+{
+  "configurations": [
+    {
+      "console": "internalConsole",
+      "name": "Node.js: Launch Program",
+      "program": "${workspaceFolder}/test/index.ts",
+      "request": "launch",
+      "runtimeArgs": ["--inspect", "--watch"],
+      "skipFiles": [
+        "<node_internals>/**",
+        "${workspaceFolder}/node_modules/**"
+      ],
+      "type": "node"
+    }
+  ],
+  "version": "0.2.0"
+}
